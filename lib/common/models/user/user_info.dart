@@ -49,10 +49,10 @@ class UserInfo {
 	"email": "",
 	"icon": "",
 	"id": 163398,
-	"nickname": "mietl",
+	"nickname": "cttaizai",
 	"password": "",
-	"publicName": "mietl",
+	"publicName": "cttaizai",
 	"token": "",
 	"type": 0,
-	"username": "mietl"
+	"username": "cttaizai"
 }*/

@@ -14,7 +14,7 @@ import 'package:wan_flutter/pages/register/index.dart';
 
 class LoginController extends GetxController {
   TextEditingController usernameController =
-      TextEditingController(text: 'mietl');
+      TextEditingController(text: 'cttaizai');
 
   TextEditingController passwordController =
       TextEditingController(text: 't22140127L');
@@ -34,7 +34,7 @@ class LoginController extends GetxController {
 
     try {
       var response = await UserApi.passwordLogin(username, password);
-      toast('登录成功!');
+      toast('登录成功！');
       // 关闭 loading
       Get.back();
 
@@ -53,9 +53,9 @@ class LoginController extends GetxController {
       Get.off(() => const MainPageView());
     } catch (e) {
       if (e is WanException) {
-        toast('登录失败: ${e.message}');
+        toast('登录失败：${e.message}');
       } else {
-        toast('登录失败: $e');
+        toast('登录失败：$e');
       }
       Get.back();
     }
